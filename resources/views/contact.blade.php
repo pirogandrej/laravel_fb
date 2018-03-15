@@ -30,7 +30,7 @@
                             </div>
 
                             <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
-                                {!! Form::label('Email : ') !!}
+                                {!! Form::label('Email git: ') !!}
                                 {!! Form::text('email', Auth::user()->email, ['class'=>'form-control', 'placeholder'=>'Введите Email']) !!}
                                 <span class="text-danger">{{ $errors->first('email') }}</span>
                             </div>
