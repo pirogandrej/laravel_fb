@@ -103,7 +103,7 @@
                     <thead>
                     <tr>
                         <th>Имя</th>
-                        <th>Почта Email</th>
+                        <th>Почта Email new_f</th>
                         <th>Телефон</th>
                         <th>Город</th>
                     </tr>
