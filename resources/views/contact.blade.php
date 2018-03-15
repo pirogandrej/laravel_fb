@@ -19,7 +19,7 @@
 
                             <?php
                                 if (isset(Auth::user()->avatar)){
-                                    echo '<img src=\"' . Auth::user()->avatar . '\" alt=\"image\"><br><br>';
+                                    echo '<img src=' . Auth::user()->avatar . '><br><br>';
                                 }
                             ?>
 
